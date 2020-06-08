@@ -1,9 +1,6 @@
 import React from 'react';
-import Counter from './components/classCounter';
-import HookCounter from './components/hookCounter';
-import HookCounterTwo from './components/hookCounter2';
-import HookCounterThree from './components/hookCounter3';
-import HookCounterFour from './components/hookCounter4'
+
+import HookCounter1 from './components/useEffect/hookCounter1'
 import './App.css';
 
 
@@ -14,7 +11,7 @@ function App() {
       {/*<HookCounter/>*/}
       {/*<HookCounterTwo/>*/}
       {/*<HookCounterThree/>*/}
-      <HookCounterFour/>
+      <HookCounter1/>
       </div>
   );
 }
